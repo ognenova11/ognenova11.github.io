@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: lightblue;
+    font-family: Bahnschrift;
+    /*background: #1dffd3;*/
+}
+.meni{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #0f5766;
+}
+
+#navigacisko{
+    background: #0f5766;
+}
+
+#ime{
+    font-weight: bold;
+    font-size: large;
+    /*color: #44cfb4;*/
+    color: lightblue;
+    text-transform: uppercase;
+}
+
+nav > ul{
+    display: flex;
+    gap:40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#navigacisko > nav > ul a{
+    text-decoration: none;
+    color: white;
+}
+
+#navigacisko > nav > ul a:hover{
+    color: #1dffd3;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background: #1d6473;
+    padding: 10px;
+    color: white;
+}
+
+/*.rabota{*/
+/*    width: 800px;*/
+/*    margin: 60px auto;*/
+/*    padding: 20px;*/
+/*    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);*/
+/*}*/
+
+/*.iskustvaa{*/
+/*    display: flex;*/
+/*    align-items: stretch;*/
+/*    background: white;*/
+/*    border-radius: 20px;*/
+/*}*/
+
+.rabota {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.iskustvaa {
+    display: flex;
+    align-items: stretch;
+    background: #eef6f9;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    margin-bottom: 50px;
+
+}
+
+.tekst {
+    flex: 1;
+    /*padding: 40px 30px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.tekst h3 {
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+.tekst .data {
+    font-weight: bold;
+    color: #1d6473;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.tekst p,
+.tekst ul {
+    color: #374151;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.tekst ul {
+    list-style: disc inside;
+    margin-top: 10px;
+}
+
+/* Сликата */
+.slika {
+    flex: 0 0 300px;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slika img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rabota > div:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+

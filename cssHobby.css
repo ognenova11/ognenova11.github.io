@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: lightblue;
+    font-family: Bahnschrift;
+    /*background: #1dffd3;*/
+}
+.meni{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #0f5766;
+}
+
+#navigacisko{
+    background: #0f5766;
+}
+
+#ime{
+    font-weight: bold;
+    font-size: large;
+    /*color: #44cfb4;*/
+    color: lightblue;
+    text-transform: uppercase;
+}
+
+nav > ul{
+    display: flex;
+    gap:40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#navigacisko > nav > ul a{
+    text-decoration: none;
+    color: white;
+}
+
+#navigacisko > nav > ul a:hover{
+    color: #1dffd3;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background: #1d6473;
+    padding: 10px;
+    color: white;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+.hobi{
+    flex:1;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.slikii{
+    width: 100%;
+    height: 250px;
+}
+
+#planinarenje,#fotografiranje{
+    padding: 20px;
+}
+#planinarenje h3,#fotografiranje h3{
+    margin-top: 0;
+    color: #0f5766;
+}
+
+#slikiPl, #slikiF{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+    margin-top: 15px;
+}
+
+#slikiPl img, #slikiF img{
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+}
+
+#slikiPl img:hover{
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+#slikiF img:hover{
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}

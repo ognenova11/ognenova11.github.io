@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: lightblue;
+    font-family: Bahnschrift;
+    /*background: #1dffd3;*/
+}
+.meni{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #0f5766;
+}
+
+#navigacisko{
+    background: #0f5766;
+}
+
+#ime{
+    font-weight: bold;
+    font-size: large;
+    /*color: #44cfb4;*/
+    color: lightblue;
+    text-transform: uppercase;
+}
+
+nav > ul{
+    display: flex;
+    gap:40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#navigacisko > nav > ul a{
+    text-decoration: none;
+    color: white;
+}
+
+#navigacisko > nav > ul a:hover{
+    color: #1dffd3;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background: #1d6473;
+    padding: 10px;
+    color: white;
+}
+
+#iconss{
+    text-align: center;
+    padding: 50px 20px;
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    background: linear-gradient(to right, #1d6473, #f0f9ff);
+    margin-bottom: 80px;
+}
+
+#iconss h2{
+    margin-bottom: 30px;
+}
+
+#ikoni{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.kontakt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+}
+
+body > p{
+    text-align: center;
+    margin: 60px 40px ;
+    color: #374151;
+
+}
+
+#ikoni a:hover{
+    transform: scale(1.2);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}

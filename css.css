@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: lightblue;
+    font-family: Bahnschrift;
+    /*background: #1dffd3;*/
+}
+.meni{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #0f5766;
+}
+
+#navigacisko{
+    background: #0f5766;
+}
+
+#ime{
+    font-weight: bold;
+    font-size: large;
+    /*color: #44cfb4;*/
+    color: lightblue;
+    text-transform: uppercase;
+}
+
+nav > ul{
+    display: flex;
+    gap:40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#navigacisko > nav > ul a{
+    text-decoration: none;
+    color: white;
+}
+
+#navigacisko > nav > ul a:hover{
+    color: #1dffd3;
+}
+
+.sodrzhina{
+    display: flex;
+    justify-content: center;
+    padding: 60px 40px;
+    width: 800px;
+    margin: auto;
+    gap:50px;
+    background: linear-gradient(to right, #1d6473, #f0f9ff);
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.5);
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+body > div > img{
+    border-radius: 20px;
+}
+
+.desno{
+    margin-top: 90px;
+    align-items: center;
+}
+.desno p{
+    text-align: justify;
+    font-size: large;
+    color: #374151;
+    margin-bottom: 25px;
+}
+
+.desno p a{
+    text-decoration: none;
+    color: #1d6473;
+}
+
+.linkoj{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.linkoj a{
+    background: #0f5766;
+    /*background: #1dffd3;*/
+    color: white;
+    padding: 12px 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.linkoj a:hover{
+    background: #3dc8ad;
+    /*background: lightblue;*/
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background: #1d6473;
+    padding: 10px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}

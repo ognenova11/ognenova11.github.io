@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: lightblue;
+    font-family: Bahnschrift;
+    /*background: #1dffd3;*/
+}
+
+.meni {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #0f5766;
+}
+
+#navigacisko {
+    background: #0f5766;
+}
+
+#ime {
+    font-weight: bold;
+    font-size: large;
+    /*color: #44cfb4;*/
+    color: lightblue;
+    text-transform: uppercase;
+}
+
+nav > ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#navigacisko > nav > ul a {
+    text-decoration: none;
+    color: white;
+}
+
+#navigacisko > nav > ul a:hover {
+    color: #1dffd3;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background: #1d6473;
+    padding: 10px;
+    color: white;
+}
+
+.education {
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(to right, #1d6473, #f0f9ff);
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.5);
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.edu {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 25px;
+    border-left: 4px solid white;
+    padding: 15px 20px;
+    background: lightblue;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.edu:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+.data {
+    font-weight: bold;
+    color: #0f5766;
+}
+
+.info p {
+    color: #374151;
+}
+
+.info h3 {
+    text-align: center;
+}
+
+body > p {
+    width: 800px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 20px 25px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #1d6473, #f0f9ff);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    text-align: justify;
+    /*color: #374151;*/
+    color: black;
+}
+
+
